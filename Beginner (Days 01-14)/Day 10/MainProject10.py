@@ -1,6 +1,7 @@
 # Day 10: Functions with outputs
 # Main Project: Calculator
-# Simple calculator with exception handling by division by zero and by the input of invalid values.
+# Simple calculator with exception handling
+# by division by zero and by the input of invalid values.
 
 from os import system, name
 import sys
