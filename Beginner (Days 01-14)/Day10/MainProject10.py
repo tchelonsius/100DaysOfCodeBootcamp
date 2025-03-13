@@ -13,6 +13,13 @@ def mul(a,b):
 def div(a,b):
     return a/b
 
+operations = {
+    '+': sum,
+    '-': sub,
+    '*': mul,
+    '/': div
+}
+
 while True:
     # This loop is outside the main one, because it's possible that the question "What is the first number"
     # is not asked again in the program.
@@ -40,31 +47,15 @@ while True:
             break
         except ValueError:
             print("Invalid value. Try again.")
-    result = 0
+
     # chooses the right operation according to the input.
-    if opt =="+":
-        result = sum(number1, number2)
-        print(f"The result is {result}")
-    elif opt =="-":
-        result = sub(number1, number2)
-        print(f"The result is {result}")
-    elif opt =="*":
-        result = mul(number1, number2)
-        print(f"The result is {result}")
-    elif opt =="/":
-        try:
-            # If the second number is zero and operation is division,
-            # it is going to ask the user for a different value.
-            result = div(number1, number2)
-            print(f"The result is {result}")
-        except ZeroDivisionError:
-            print("Invalid input.")
-            while True:
-                number2 = float(input("Type a valid divisor: "))
-                if number2!=0:
-                    result = div(number1,number2)
-                    print(f"The result is {result}")
-                    break
+    if opt=='/':
+        # Avoids division by zero exception.
+        while number2==0:
+            number2 = float(input("Division by zero is not possible."
+                                  "\nTry a different number: "))
+    result = operations[opt](number1, number2)
+    print(f"The result is {result}")
 
     while True:
         next = input(f"Type 'y' to continue calculating with {result}, 'n' to start a new calculation, or 'e' to exit: ")
