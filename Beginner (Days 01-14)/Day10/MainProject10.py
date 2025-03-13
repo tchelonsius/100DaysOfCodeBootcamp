@@ -2,7 +2,11 @@
 # Main Project: Calculator
 # Simple calculator with exception handling by division by zero and by the input of invalid values.
 
+from os import system, name
 import sys
+
+def clear():
+    system('cls')
 
 def sum(a,b):
     return a+b
@@ -55,7 +59,7 @@ while True:
             number2 = float(input("Division by zero is not possible."
                                   "\nTry a different number: "))
     result = operations[opt](number1, number2)
-    print(f"The result is {result}")
+    print(f"{number1} {opt} {number2} = {result}")
 
     while True:
         next = input(f"Type 'y' to continue calculating with {result}, 'n' to start a new calculation, or 'e' to exit: ")
@@ -63,6 +67,8 @@ while True:
             number1 = result
             break
         elif next == 'n':
+            # The console is cleared in the case of a new operation.
+            clear()
             number1 = float(input("What is the first number? "))
             break
         elif next == 'e':
