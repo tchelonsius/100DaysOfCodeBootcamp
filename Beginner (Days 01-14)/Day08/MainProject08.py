@@ -6,19 +6,22 @@
 
 alphabet = [letter for letter in "abcdefghijklmnopqrstuvwxyz"]
 
-
-while True:
-    action = input("Type 'encode' to encrypt or 'decode' to decrypt: ")
+def action(message, shift, direction):
     new_message = ""
-    message = input("Type your message: ")
-    shift = int(input("Type the shift number: "))
-    if action == "encode":
+    if direction == "encode":
         for letter in message:
             new_message += alphabet[(alphabet.index(letter)+shift)%26]
-    elif action == "decode":
+    elif direction == "decode":
         for letter in message:
             new_message += alphabet[(alphabet.index(letter)-shift)%26]
+    return new_message
 
+
+while True:
+    direction = input("Type 'encode' to encrypt or 'decode' to decrypt: ")
+    message = input("Type your message: ")
+    shift = int(input("Type the shift number: "))
+    new_message = action(message, shift, direction)
     print(f"Here's the encoded result: {new_message}")
     again = input("Type 'yes' to go again. Otherwise type 'no'.\n")
     if again == "no":
