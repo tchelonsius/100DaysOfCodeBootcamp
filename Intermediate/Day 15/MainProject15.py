@@ -48,9 +48,14 @@ while True:
     else:
         print(f"Sorry, '{command}' is not a possible command.")
         continue
+
     print("Please insert coins.")
-    value_inserted = 0.25*(int(input("How many quarters? ")) + 0.1*int(input("How many dimes? "))
-             + 0.05*int(input("How many nickles? ")) + 0.01*int(input("How many pennies? ")))
+    value_inserted = 0
+    value_inserted += 0.25*(int(input("How many quarters? ")))
+    value_inserted += 0.1 *(int(input("How many dimes? ")))
+    value_inserted += 0.05*int(input("How many nickles? "))
+    value_inserted += 0.01*int(input("How many pennies? "))
+
     if value_inserted < Data.MENU[command]["cost"]:
         print("Not enough money. Money refunded...")
         break
