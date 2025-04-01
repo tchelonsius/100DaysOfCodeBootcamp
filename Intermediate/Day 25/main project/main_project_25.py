@@ -46,10 +46,7 @@ while len(already_answered)<=50:
 # Create a csv file that contains all non guessed states.
 
 
-not_guessed = []
-for item in states_list:
-    if item not in already_answered:
-        not_guessed.append(item)
+not_guessed = [item for item in states_list if item not in already_answered]
 
 data_dict = {"states": not_guessed}
 
