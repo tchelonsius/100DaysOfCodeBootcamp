@@ -9,6 +9,7 @@ user to confirm them. The search functionality displays the email and the passwo
 registered for a website request. If the requested website has not been registered yet,
 the user is informed of so. A default email can be set, so that every time the program 
 runs, it is already going to be written in the email field. The data is stored in a json 
-file, which makes it a lot easier to search for website requests.
+file, which makes it a lot easier to search for website requests. It is necessary to 
+insert a password in the entry frame, before accessing the actual application.
 
 <img src="pwrd_manager.png" alt="image" style="width:250px;"/>
