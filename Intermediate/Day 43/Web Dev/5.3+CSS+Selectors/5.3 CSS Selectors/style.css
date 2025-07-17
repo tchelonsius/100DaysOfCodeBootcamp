@@ -1,0 +1,32 @@
+ol {
+  margin-left: -40px;
+  margin-top: -20px;
+  list-style-position: inside;
+}
+
+/* Write your CSS below, don't change the rules above. */
+
+/* applies to all paragraphs */
+p{
+  color: red;
+}
+
+/* defining a class */
+.note{
+  font-size: 20px;
+}
+
+/* applies to the only one with this id */
+#id-selector-demo{
+  color: green;
+}
+
+/* applies to the list items with value equal to "4" */
+li[value="4"]{
+  color: blue;
+}
+
+/* applies to all elements */
+*{
+  text-align: center;
+}
