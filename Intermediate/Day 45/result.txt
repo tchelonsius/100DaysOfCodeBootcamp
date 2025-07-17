@@ -1,0 +1,100 @@
+1) Arrival - 2016
+2) Captain America: Civil War - 2016
+3) La La Land - 2016
+4) Mad Max: Fury Road - 2015
+5) Whiplash - 2014
+6) Interstellar - 2014
+7) Guardians Of The Galaxy - 2014
+8) Avengers Assemble - 2012
+9) Drive - 2011
+10) The Social Network - 2010
+11) Inception - 2010
+12) Inglourious Basterds - 2009
+13) The Dark Knight - 2008
+14) No Country For Old Men - 2007
+15) Hot Fuzz - 2007
+16) There Will Be Blood - 2007
+17) The Prestige - 2006
+18) Pan's Labyrinth - 2006
+19) The Departed - 2006
+20) Shaun Of The Dead - 2004
+21) Eternal Sunshine Of The Spotless Mind - 2004
+22) Lost In Translation - 2003
+23) Oldboy - 2003
+24) The Lord Of The Rings: The Return Of The King - 2003
+25) The Lord Of The Rings: The Two Towers - 2002
+26) Amelie - 2001
+27) Spirited Away - 2001
+28) Mulholland Dr. - 2001
+29) Donnie Darko - 2001
+30) The Lord Of The Rings: The Fellowship Of The Ring - 2001
+31) Memento - 2000
+32) Gladiator - 2000
+33) American Beauty - 1999
+34) The Matrix - 1999
+35) Fight Club - 1999
+36) Saving Private Ryan - 1998
+37) The Big Lebowski - 1998
+38) Titanic - 1997
+39) Good Will Hunting - 1997
+40) L.A. Confidential - 1997
+41) Fargo - 1996
+42) Trainspotting - 1996
+43) Toy Story - 1995
+44) The Usual Suspects - 1995
+45) Seven - 1995
+46) Heat - 1995
+47) L\xc3\x83\xc2\xa9on - 1994
+48) The Lion King - 1994
+49) Forrest Gump - 1994
+50) Pulp Fiction - 1994
+51) The Shawshank Redemption - 1994
+52) True Romance - 1993
+53) Schindler's List - 1993
+54) Jurassic Park - 1993
+55) Reservoir Dogs - 1992
+56) The Silence Of The Lambs - 1991
+57) Terminator 2: Judgment Day - 1991
+58) Goodfellas - 1990
+59) Indiana Jones And The Last Crusade - 1989
+60) Die Hard - 1988
+61) The Princess Bride - 1987
+62) Predator - 1987
+63) Stand By Me - 1986
+64) Aliens - 1986
+65) Back To The Future - 1985
+66) The Terminator - 1984
+67) Ghostbusters - 1984
+68) Return Of The Jedi - 1983
+69) E.T. \xc3\xa2\xc2\x80\xc2\x93 The Extra Terrestrial - 1982
+70) The Thing - 1982
+71) Blade Runner - 1982
+72) Raiders Of The Lost Ark - 1981
+73) Raging Bull - 1980
+74) The Shining - 1980
+75) Apocalypse Now - 1979
+76) Alien - 1979
+77) Star Wars - 1977
+78) Rocky - 1976
+79) Taxi Driver - 1976
+80) One Flew Over The Cuckoo's Nest - 1975
+81) Jaws - 1975
+82) b'12: The Godfather Part II - 1974
+83) The Exorcist - 1973
+84) The Godfather - 1972
+85) A Clockwork Orange - 1971
+86) Once Upon A Time In The West - 1968
+87) 2001: A Space Odyssey - 1968
+88) The Good, The Bad And The Ugly - 1966
+89) Lawrence Of Arabia - 1962
+90) Psycho - 1960
+91) Some Like It Hot - 1959
+92) Vertigo - 1958
+93) 12 Angry Men - 1957
+94) Seven Samurai - 1954
+95) Rear Window - 1954
+96) Singin' In The Rain - 1952
+97) It's A Wonderful Life - 1946
+98) Casablanca - 1942
+99) Citizen Kane - 1941
+100) The Empire Strikes Back - 
