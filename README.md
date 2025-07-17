@@ -1,5 +1,5 @@
 # 100 Days of Code Bootcamp
-This repository contains my solutions to the projects proposed throughout the course.
+This repository contains my solutions to the projects proposed throughout the udemy course from Angela Yu.
 Some of the directories include their own README files, while others have a brief description
 within the main code file.
 ### My favourite ones: 
